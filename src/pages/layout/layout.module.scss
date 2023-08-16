@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 5em;
+  position: relative;
+  
+  .ul {
+      display: flex;
+    column-gap: 3em;
+  }
+  
+  .li {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+  }
+  .li:hover .link {
+    color: red;
+  }
+  .link,
+  .link2 {
+    text-decoration: none;
+    color: black;
+  }
+  .li:hover .sub {
+    display:flex;
+    column-gap: 3em;
+    position: absolute;
+    top: 5rem;
+    margin-right: 15em;
+    padding: 1.5rem;
+    width: 40rem;
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+    z-index: 3;
+  }
+
+  p {
+    color: red;
+  }
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .sub {
+    display: none;
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1em;
+    }
+
+    li {
+      display: flex;
+    }
+  }
+}
