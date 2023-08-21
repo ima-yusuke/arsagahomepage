@@ -1,3 +1,4 @@
+import HomeForthSection from "../../component/homeForthSection/homeForthSection"
 import HomeSecondSection from "../../component/homeSecondSection/homeSecondSection"
 import HomeThirdSection from "../../component/homeThirdSection/homeThirdSection"
 import HomeTop from "../../component/homeTop/homePage"
@@ -8,6 +9,7 @@ function HomePage(){
             <HomeTop></HomeTop>
             <HomeSecondSection></HomeSecondSection>
             <HomeThirdSection></HomeThirdSection>
+            <HomeForthSection></HomeForthSection>
         </>
     )
 }
